@@ -7,5 +7,7 @@ video#inazumaEP {
 }
 
 div#buttonWrapper {
-    position: relative;
+    position: fixed;
+    top: 10%;
+    left: 13%;
 }
