@@ -28,6 +28,9 @@ div#navibar {
     background-image: url("../media/navibar-design.png");
     display: inline-block;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index:3;
 }
   
 div#leftie {
@@ -78,7 +81,6 @@ div#rightie a:visited{
 div#content1 {
     display:inline-block;
     width: 100%;
-    background-color:black;
 }
 
 div#welcomequote {
@@ -87,4 +89,123 @@ div#welcomequote {
 
 div#videoloop {
     float:right;
+}
+
+div#content2 {
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+div#slideshow-container {
+    flex: 1 1 65%;
+    position: relative;
+}
+
+div#slideshow-sidebar {
+    flex: 1 1 35%;
+    position:relative;
+    z-index: 2;
+    background-color:beige;
+}
+
+div#straw-desc {
+    font-family:'LocalBrewerySans';
+    text-align:justify;
+    margin: 20px;
+    background-image:url("../media/berry-gridbrow.png");
+    border-radius: 20%;
+    color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+div#straw-desc span#a{
+    font-family:'Arial';
+}
+
+div#straw-desc span#b{
+    color:lightpink;
+}
+
+img#straw-title{
+    position:absolute;
+    z-index: 2;
+    top: -70px;
+    left: 5px;
+}
+
+.berry-slide{
+    z-index:1;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    border-radius: 5%;
+    border: 5px black solid;
+    object-fit: cover;
+    width:600px;
+    height: 320px;
+    opacity:0;
+}
+
+div#berry-contacts{
+    font-family:'LocalBrewerySans';
+    font-size: 18px;
+    margin:20px;
+    background-color:rgba(241, 182, 183, 0.5);
+}
+
+div#berry-contacts span{
+    font-family:'Arial';
+}
+
+div#content3{
+    display: flex;
+    border: 1px red solid;
+    margin-top: 60px;
+    margin-left:100px;
+    margin-right:100px;
+    justify-content: space-around;
+}
+
+div#content3 a{
+    font-family: 'Cream';
+    text-decoration: none;
+    color: white;
+    border: 2px blue solid;
+    margin-top: -20px;
+}
+
+div#content3 a:hover{
+    font-family: 'Cabriole';
+    text-decoration: none;
+    color:black;
+}
+
+div#berry-box1{
+    border:5px white solid;
+    background-color: #6ed6ca;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
+}
+
+div#berry-box2{
+    border:5px white solid;
+    background-color: #Ec2a7a;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
+}
+
+div#berry-box3{
+    border:5px white solid;
+    background-color: #Ffb3a6;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
 }

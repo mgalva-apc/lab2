@@ -28,6 +28,8 @@ div#navibar {
     background-image: url("../media/navibar-design.png");
     display: inline-block;
     width: 100%;
+    position: sticky;
+    top: 0px;
 }
   
 div#leftie {
@@ -111,4 +113,38 @@ div#berrydesc h4{
     text-align:left;
     font-style:italic;
     font-size:20px;
+}
+
+div#berry-info{
+    word-wrap:break-word;
+    background-color:bisque;
+    z-index:-2;
+    font-family:'LocalBrewerySans';
+    position: absolute;
+    top: 250px;
+    right:170px;
+    width:500px;
+}
+
+div#berry-info span{
+    font-family:'Arial';
+}
+
+div#berry-aileen {
+    font-family:'Cabriole';
+    word-wrap:break-word;
+    position:absolute;
+    width:500px;
+    text-align:center;
+    background-color:rgba(255, 255, 255,0.5);
+    top: 400px;
+    right:170px;
+}
+
+div#berry-aileen span{
+    font-family: 'Arial';
+}
+
+div#berry-aileen p#aileen{
+    font-size:10px;
 }
