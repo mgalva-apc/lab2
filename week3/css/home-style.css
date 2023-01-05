@@ -79,20 +79,14 @@ div#rightie a:visited{
 }
 
 div#content1 {
-    display:inline-block;
+    display:flex;
+    justify-content: center;
     width: 100%;
-}
-
-div#welcomequote {
-    float:left;
-}
-
-div#videoloop {
-    float:right;
 }
 
 div#content2 {
     display: flex;
+    justify-content: center;
     gap: 15px;
     padding-top: 60px;
     padding-left: 40px;
@@ -100,15 +94,15 @@ div#content2 {
 }
 
 div#slideshow-container {
-    flex: 1 1 65%;
     position: relative;
 }
 
 div#slideshow-sidebar {
-    flex: 1 1 35%;
     position:relative;
     z-index: 2;
     background-color:beige;
+    max-width: 400px;
+    width: 400px;
 }
 
 div#straw-desc {
@@ -150,6 +144,7 @@ img#straw-title{
     width:600px;
     height: 320px;
     opacity:0;
+    transition: opacity 1s ease-out;
 }
 
 div#berry-contacts{
@@ -165,7 +160,6 @@ div#berry-contacts span{
 
 div#content3{
     display: flex;
-    border: 1px red solid;
     margin-top: 60px;
     margin-left:100px;
     margin-right:100px;
@@ -175,15 +169,22 @@ div#content3{
 div#content3 a{
     font-family: 'Cream';
     text-decoration: none;
-    color: white;
-    border: 2px blue solid;
-    margin-top: -20px;
+    color: black;
 }
 
 div#content3 a:hover{
     font-family: 'Cabriole';
     text-decoration: none;
-    color:black;
+    color:white;
+}
+
+div#content3 img {
+    margin-bottom: -25px;
+}
+
+div#content3 p {
+    margin-top: -15px;
+    margin-left: 12px;
 }
 
 div#berry-box1{
@@ -208,4 +209,38 @@ div#berry-box3{
     border-radius: 10%;
     font-family: 'LocalBrewerySans';
     padding-right:10px;
+}
+
+div#footer {
+    font-family:'Garamond';
+    background-color: rgba(255, 255, 255,0.5);
+    text-align: center;
+    margin: 70px;
+}
+
+div#footer h4{
+    font-size: 20px;
+}
+
+div#berry-logofoot {
+    display: flex;
+    justify-content: center;
+    gap:800px;
+    font-family: 'Cream';
+}
+
+div#berry-logofoot img{
+    margin-bottom: -40px;
+}
+
+div#berry-logofoot span{
+    color:mediumvioletred;
+}
+
+div#berry-logofoot h4{
+    margin-right: 20px;
+}
+
+div#berry-webprog {
+    padding-top: 25px;
 }
