@@ -26,10 +26,21 @@ body {
 
 div#navibar {
     background-image: url("../media/navibar-design.png");
+    background-size:cover;
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
     position: sticky;
-    top: 0px;
+    padding-top: 0vw;;
+    padding-bottom: -1vw;
+    z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
 }
   
 div#leftie {
@@ -40,17 +51,19 @@ div#leftie {
 
 div#leftie h2 {
     float: right;
-    padding-top: 7px;
+    padding-top: 1.3vw;
     font-family:'Cream';
+    font-size:2.3vw;
 }
 
 div#leftie span {
-    color:mediumvioletred;
+    color:white;
 }
   
 div#rightie {
     float: right;
-    padding-top: 15px;
+    padding-top: 2vw;
+    font-size: 1.28vw;
 }
 
 div#rightie a:link{
@@ -79,6 +92,10 @@ div#rightie a:visited{
 
 div#rightie img#indicator{
     margin-right:55px;
+}
+
+div#rightie img{
+    width: 5.4vw;
 }
 
 div#content1{
@@ -298,7 +315,7 @@ div#berry-logofoot span{
 
 div#berry-webprog {
     padding-top: 1vw;
-    padding-left: 0.3vw;
+    padding-left: 0.5vw;
 }
 
 div#straw-logo{

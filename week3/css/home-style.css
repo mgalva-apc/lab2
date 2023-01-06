@@ -26,11 +26,21 @@ body {
 
 div#navibar {
     background-image: url("../media/navibar-design.png");
+    background-size:cover;
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
     position: sticky;
-    top: 0px;
+    padding-top: 0vw;;
+    padding-bottom: -1vw;
     z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
 }
   
 div#leftie {
@@ -41,17 +51,19 @@ div#leftie {
 
 div#leftie h2 {
     float: right;
-    padding-top: 7px;
+    padding-top: 1.3vw;
     font-family:'Cream';
+    font-size:2.3vw;
 }
 
 div#leftie span {
-    color:mediumvioletred;
+    color:white;
 }
   
 div#rightie {
     float: right;
-    padding-top: 15px;
+    padding-top: 2vw;
+    font-size: 1.28vw;
 }
 
 div#rightie a:link{
@@ -78,44 +90,64 @@ div#rightie a:visited{
     margin-right: 45px; 
 }
 
+div#rightie img{
+    width: 5.4vw;
+}
+
 div#content1 {
     display:flex;
     justify-content: center;
-    width: 100%;
+}
+
+div#content1 img{
+    width: 46.77vw;
+}
+
+div#content1 video{
+    width: 50vw;
 }
 
 div#content2 {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+    gap: 2.3vw;
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family:'Cream';
+}
+
+div#content2 p, ul{
+    font-size:1.26vw;
 }
 
 div#slideshow-container {
     position: relative;
 }
 
+div#slideshow-container img#berry-slideframe{
+    width:60vw;
+}
+
 div#slideshow-sidebar {
     position:relative;
     z-index: 2;
     background-color:beige;
-    max-width: 400px;
-    width: 400px;
+    max-width: 40vw;
+    width: 40vw;
 }
 
 div#straw-desc {
     font-family:'LocalBrewerySans';
     text-align:justify;
-    margin: 20px;
+    margin: 1vw;
     background-image:url("../media/berry-gridbrow.png");
     border-radius: 20%;
     color:white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
 }
 
 div#straw-desc span#a{
@@ -129,20 +161,21 @@ div#straw-desc span#b{
 img#straw-title{
     position:absolute;
     z-index: 2;
-    top: -70px;
-    left: 5px;
+    top: -6vw;
+    left: -2vw;
+    width: 30vw;
 }
 
 .berry-slide{
     z-index:1;
     position: absolute;
-    top: 15px;
-    left: 65px;
+    top: 2vw;
+    left: 6vw;
     border-radius: 5%;
     border: 5px black solid;
     object-fit: cover;
-    width:600px;
-    height: 320px;
+    width:47vw;
+    height: 25vw;
     opacity:0;
     transition: opacity 1s ease-out;
 }
@@ -160,9 +193,9 @@ div#berry-contacts span{
 
 div#content3{
     display: flex;
-    margin-top: 60px;
-    margin-left:100px;
-    margin-right:100px;
+    margin-top: 3vw;
+    margin-left:7.5vw;
+    margin-right:7.5vw;
     justify-content: space-around;
 }
 
@@ -180,11 +213,17 @@ div#content3 a:hover{
 
 div#content3 img {
     margin-bottom: -25px;
+    width:24vw;
+}
+
+div#content3 h2 {
+    font-size:2vw;
 }
 
 div#content3 p {
     margin-top: -15px;
     margin-left: 12px;
+    font-size:1.2vw;
 }
 
 div#berry-box1{
@@ -215,32 +254,39 @@ div#footer {
     font-family:'Garamond';
     background-color: rgba(255, 255, 255,0.5);
     text-align: center;
-    margin: 70px;
+    margin: 7vw;
 }
 
 div#footer h4{
-    font-size: 20px;
+    font-size: 1.7vw;
+}
+
+div#footer p{
+    font-size: 1.3vw;
 }
 
 div#berry-logofoot {
     display: flex;
     justify-content: center;
-    gap:800px;
+    gap:70vw;
     font-family: 'Cream';
 }
 
 div#berry-logofoot img{
-    margin-bottom: -40px;
+    margin-bottom: -4vw;
 }
 
 div#berry-logofoot span{
     color:mediumvioletred;
 }
 
-div#berry-logofoot h4{
-    margin-right: 20px;
+div#berry-webprog {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
 }
 
-div#berry-webprog {
-    padding-top: 25px;
+div#straw-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
 }
