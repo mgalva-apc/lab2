@@ -33,7 +33,7 @@ div#navibar {
     height: 9.7vw;
     min-height:9.7;
     position: sticky;
-    padding-top: 0vw;;
+    top:0;
     padding-bottom: -1vw;
     z-index:3;
     border-bottom: 10px white solid;
