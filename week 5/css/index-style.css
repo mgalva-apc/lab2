@@ -1,0 +1,17 @@
+video#inazumaEP {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+div#buttonWrapper {
+    position: fixed;
+    top: 3vw;
+    left: 12vw;
+}
+
+div#buttonWrapper img{
+    width:70vw;
+}
