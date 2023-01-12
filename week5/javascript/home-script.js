@@ -12,7 +12,7 @@ function showSlides(s, i) {
 
     i++;
     if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
-        i = 0; //
+        i = 0; //LESSON 5.2 - ASSINGMENTS//
     }
     setTimeout(function () { showSlides(s, i) }, 5000);
 }
