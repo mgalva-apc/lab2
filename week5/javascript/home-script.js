@@ -1,4 +1,4 @@
-var container = document.getElementById("slideshow-container");
+var container = document.getElementById("slideshow-container"); //LESSON 2.1 - VARIABLES//
 var slides = container.getElementsByClassName("berry-slide");
 
 function showSlides(s, i) {
@@ -12,7 +12,7 @@ function showSlides(s, i) {
 
     i++;
     if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
-        i = 0;
+        i = 0; //
     }
     setTimeout(function () { showSlides(s, i) }, 5000);
 }
