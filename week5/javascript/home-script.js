@@ -4,7 +4,7 @@ var slides = container.getElementsByClassName("berry-slide");
 function showSlides(s, i) {
     s[i].style.opacity = "1";
 
-    if (i == 0) {
+    if (i == 0) { //LESSON 9.4 - IF ELSE//
         s[s.length-1].style.opacity = "0";
     } else {
         s[i-1].style.opacity = "0";
