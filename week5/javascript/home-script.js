@@ -11,7 +11,7 @@ function showSlides(s, i) {
     }
 
     i++;
-    if (i >= s.length) {
+    if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
         i = 0;
     }
     setTimeout(function () { showSlides(s, i) }, 5000);
