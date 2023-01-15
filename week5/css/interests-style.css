@@ -21,7 +21,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../media/berry-bg.png"); 
+    background-image: url("../media/berry-bg.png");
+    overflow-x: hidden; 
 }
 
 div#navibar {
@@ -126,7 +127,7 @@ div#content1 h2 {
 }
 
 div#content1 p{
-    font-size: 1.2;
+    font-size: 1.2vw;
 }
 
 button#berry-button1 {
@@ -307,13 +308,18 @@ div#layer2{
 
 div#img-cont{
     position:relative;
+    display: flex;
+    overflow: hidden;
 }
 
 div#text{
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 170, 170, 0.7);
+    height: 0;
+    bottom:0;
+    background-color: rgba(216, 84, 84, 0.9);
+    padding: 0.2vw;
+    color: white;
 }
 
 div#text h2{
@@ -323,6 +329,15 @@ div#text h2{
 div#text p{
     font-size: 0.85vw;
     text-align: justify;
+}
+
+div#img-cont:hover > div#text {
+    height: 100%;
+}
+
+div#reminder img{
+    width: 77vw;
+    padding-left: 13vw;
 }
 
 div#berry-logofoot {
