@@ -8,7 +8,7 @@ var txtSlides = document.getElementById("berry-slidebar").getElementsByClassName
 var index = 0;
 function showSlides(n){
     index += n;
-    for (let i=0; i<vidSlides.length; ++i) {
+    for (let i=0; i<vidSlides.length; ++i) { 
         vidSlides[i].style.opacity = "0";
         txtSlides[i].style.opacity = "0";
     }
