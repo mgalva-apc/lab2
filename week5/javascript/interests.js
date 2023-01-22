@@ -6,7 +6,7 @@ cancelBtn.addEventListener('click', function() { modal.close()} );
 var vidSlides = document.getElementById("berry-slidebox").getElementsByClassName("berry-vids");
 var txtSlides = document.getElementById("berry-slidebar").getElementsByClassName("slidebar-content");
 var index = 0;
-function showSlides(n){
+function showSlides(n){ //LESSON 18.1 FUNCTIONS
     index += n;
     for (let i=0; i<vidSlides.length; ++i) { //LESSON 10.6 iterables + LESSON 10.1 LOOP FOR
         vidSlides[i].style.opacity = "0";
