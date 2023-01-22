@@ -21,4 +21,4 @@ function showSlides(n){ //LESSON 18.1 FUNCTIONS
     vidSlides[index].style.opacity = "1"
     txtSlides[index].style.opacity = "1"
 }
-showSlides(0)
+showSlides(0) //LESSON 17.4 METHODS
