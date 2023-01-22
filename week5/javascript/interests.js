@@ -1,5 +1,5 @@
 var modalBtn = document.getElementById("berry-button1");
-var modal = document.getElementById("berry-modal");
+var modal = document.getElementById("berry-modal"); //LESSON 17.5 OBJECT DISPLAY
 modalBtn.addEventListener('click', function() { modal.showModal() } );
 var cancelBtn = document.getElementById("berry-cancel");
 cancelBtn.addEventListener('click', function() { modal.close()} );
