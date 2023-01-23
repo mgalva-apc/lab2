@@ -22,7 +22,7 @@ function showSlides(n){
     vidSlides[index].style.opacity = "1"
     txtSlides[index].style.opacity = "1"
 }
-//CONTENT 3 DIV
+//CONTENT 3 DIV for the slides again
 var modalBtn2 = document.getElementById("berry-button2");
 var modal2 = document.getElementById("berry-modal2");
 modalBtn2.addEventListener('click', function() { modal2.showModal() } );
