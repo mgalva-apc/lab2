@@ -94,6 +94,11 @@ div#vid-music{
     background-color: rgba(119, 101, 199, 0.3);
 }
 
+div#summary-ref{
+    padding: 3vw;
+    background-color: rgba(119, 101, 199, 0.3);
+}
+
 div#canva{
     padding: 3vw;
     background-color: rgba(119, 101, 199, 0.3);

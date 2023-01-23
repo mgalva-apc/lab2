@@ -320,6 +320,7 @@ div#text{
     background-color: rgba(216, 84, 84, 0.9);
     padding: 0.2vw;
     color: white;
+    transition: height 0.25s ease-in-out;
 }
 
 div#text h2{
@@ -335,9 +336,170 @@ div#img-cont:hover > div#text {
     height: 100%;
 }
 
-div#reminder img{
-    width: 77vw;
-    padding-left: 13vw;
+div#berry-pic2 img{
+    width: 38vw;
+    position: absolute;
+    z-index: 2;
+    right: 6vw;
+}
+
+div#content3 {
+    font-family: 'Cabriole';
+    background-image: url("../media/bg-try2.png");
+    background-size: cover;
+    margin-top: 2.2vw;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    height: 49vh;
+}
+
+div#content3 span{
+    font-family: 'Cream';
+}
+
+div#content3 h2 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+div#content3 p{
+    font-size: 1.2vw;
+}
+
+button#berry-button2 {
+    font-family: 'Cream';
+    font-size: 1.5vw;
+    background-color: rgba(255, 138, 140, 1);
+    margin-top: 2vw;
+    width: 15vw;
+    border: 3px rgba(138, 30, 30, 1) dotted;
+    border-radius: 15%;
+    margin-left: 18vw;
+    margin-top: -0.30vw;
+    cursor: pointer;
+}
+
+img#berry-cancel2{
+    cursor: pointer;
+}
+
+.berry-modal2 {
+    position: sticky;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    padding-top: 0.1vw;
+    overflow: auto;
+    background-image: url("../media/desktoptry2.png");
+    background-size: 95.7vw;
+}
+
+.berry-modal2::backdrop {
+    background: linear-gradient(45deg, purple, pink);
+    opacity: 0.3;
+}
+
+div#header3{
+    display: flex;
+    padding-left: 77vw;
+    border-radius:5%;
+}
+
+div#header3 img{
+    width: 5vw;
+}
+
+div#header3 p{
+    font-size:1.2vw;
+    font-family:'LocalBrewerySans';
+}
+
+div#contenthere2 {
+    display: flex;
+    gap: 0vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: -3vw;
+    padding-top: 2vw;
+    padding-bottom: 2.8vw;
+    font-family: 'Cream';
+}
+
+div#berry-slidebox2 {
+    position: relative;
+}
+
+div#contenthere2 img#slideshow-frame2{
+    width: 48.7vw;
+    height: 33vw;
+}
+
+.berry-vids2 {
+    z-index:1;
+    position: absolute;
+    top: 3.57vw;
+    left: 0.65vw;
+    border-radius:1%;
+    border: 2px #8bd4c4 solid;
+    object-fit: cover;
+    width:47vw;
+    height: 25vw;
+    opacity:1;
+    transition: opacity 1s ease-out;
+}
+
+div#berry-slidebar2 {
+    background-color:beige;
+    margin: 2.5vw;
+}
+
+.slidebar-content2{
+    background-image:url("../media/berry-gridbrow.png");
+    border-radius: 3%;
+    margin: 1vw;
+    padding-bottom: 2vw;
+    opacity: 0.8;
+    z-index:1;
+    position: absolute;
+    opacity:1;
+    transition: opacity 1s ease-out;
+    object-fit: cover;
+    font-size: 1.2vw;
+    margin: 2vw;
+}
+
+.slidebar-content2 img{
+    padding-left: 3vw;
+    margin-top: -7vw;
+    margin-bottom: -3vw;
+    width: 27vw;
+}
+
+.slidebar-content2 p{
+    font-size: 1.2vw;
+    margin: 2vw;
+    text-align: justify;
+    color: white;
+}
+
+div#arrow-buttons2{
+    display: flex;
+    gap: 3vw;
+    position: absolute;
+    top: 4vw;
+    left: 56vw;
+}
+
+div#arrow-buttons2 img#left2{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
+}
+div#arrow-buttons2 img#right2{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
 }
 
 div#berry-logofoot {

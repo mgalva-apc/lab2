@@ -145,6 +145,10 @@ div#berri-rightie a:link{
     padding-left: 8.5vw;
 }
 
+div#berri-rightie span{
+    font-family:'Cream';
+}
+
 div#berry-logofoot {
     display: flex;
     justify-content: center;
