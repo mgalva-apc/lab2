@@ -10,26 +10,26 @@
 <body>
     <div id="navibar">
         <div id="leftie">
-            <a href="home.html"> 
+            <a href="home.php"> 
                 <img src="../media/berry-logoye.png" width="88px">
             </a>
             <h2>strawbearry <span>pop</span></h2>
         </div>
         <div id="rightie">
             <nav>
-                <a href="archiver.html">
+                <a href="archiver.php">
                     <img src="../media/Archiver.png" width="60px">
                     The Archiver
                 </a>
-                <a href="ideals.html">
+                <a href="ideals.php">
                     <img src="../media/Ideals.png" width="60px">
                     Ideals
                 </a>
-                <a href="interests.html">
+                <a href="interests.php">
                     <img src="../media/Interests.png" width="60px">
                     Interests
                 </a>
-                <a href="gallery.html">
+                <a href="gallery.php">
                     <img src="../media/Creations.png" width="60px">
                     Gallery
                 </a>
@@ -42,11 +42,11 @@
     </div>
     <div id="berry-contain">
         <div id="berri-leftie">
-            <a href="lessons.html">Lesson Application</a>
+            <a href="lessons.php">Lesson Application</a>
             <p>This page contains applications of lessons from class that the creator could not integrate with the design of the website in mind</p>
         </div>
         <div id="berri-rightie">
-            <a href="resources.html">Resources and Templates</a>
+            <a href="resources.php">Resources and Templates</a>
             <p>This page features sites and other creators referenced by the creator for the creation of this website <span>(RESOURCES UP TO DATE)</span></p>
         </div>
     </div>

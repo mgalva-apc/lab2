@@ -10,28 +10,28 @@
 <body>
     <div id="navibar">
         <div id="leftie">
-            <a href="home.html"> 
+            <a href="home.php"> 
                 <img src="../media/berry-logoye.png">
             </a>
             <h2>strawbearry <span>pop</span></h2>
         </div>
         <div id="rightie">
             <nav>
-                <a href="archiver.html">
+                <a href="archiver.php">
                     <img src="../media/Archiver.png">
                     The Archiver
                 </a>
                 <img id="indicator" src="../media/berry-pixel.png">
                 </a>
-                <a href="interests.html">
+                <a href="interests.php">
                     <img src="../media/Interests.png">
                     Interests
                 </a>
-                <a href="gallery.html">
+                <a href="gallery.php">
                     <img src="../media/Creations.png">
                     Gallery
                 </a>
-                <a href="extras.html">
+                <a href="extras.php">
                     <img src="../media/Features.png">
                     Resources
                 </a>

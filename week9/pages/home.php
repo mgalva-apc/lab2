@@ -10,30 +10,30 @@
 <body>
     <div id="navibar">
         <div id="leftie">
-            <a href="home.html"> 
+            <a href="home.php"> 
                 <img src="../media/berry-logoye.png" width="88px">
             </a>
             <h2>strawbearry <span>pop</span></h2>
         </div>
         <div id="rightie">
             <nav>
-                <a href="archiver.html">
+                <a href="archiver.php">
                     <img src="../media/Archiver.png" width="60px">
                     The Archiver
                 </a>
-                <a href="ideals.html">
+                <a href="ideals.php">
                     <img src="../media/Ideals.png" width="60px">
                     Ideals
                 </a>
-                <a href="interests.html">
+                <a href="interests.php">
                     <img src="../media/Interests.png" width="60px">
                     Interests
                 </a>
-                <a href="gallery.html">
+                <a href="gallery.php">
                     <img src="../media/Creations.png" width="60px">
                     Gallery
                 </a>
-                <a href="extras.html">
+                <a href="extras.php">
                     <img src="../media/Features.png" width="60px">
                     Resources
                 </a>
@@ -79,21 +79,21 @@
     <div id="content3">
         <div id="berry-box1">
             <img id="pic1" src="../media/rv.png">
-            <a href="interests.html">
+            <a href="interests.php">
                 <h2>My Interests</h2>
             </a>
             <p id="box1-desc">Learn more about the things I love and enjoy</p>
         </div>
         <div id="berry-box2">
             <img id="pic1" src="../media/scara.png">
-            <a href="archiver.html">
+            <a href="archiver.php">
                 <h2>About Me</h2>
             </a>
             <p id="box2-desc">Who I am and my background</p>
         </div>
         <div id="berry-box3">
             <img id="pic1" src="../media/yanyi.png">
-            <a href="ideals.html">
+            <a href="ideals.php">
                 <h2>My Insights</h2>
             </a>
             <p id="box3-desc">My thoughts and reasons for a few things</p>

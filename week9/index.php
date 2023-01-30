@@ -12,7 +12,7 @@
     <source src="media/inazumaEP.mp4" type="video/mp4">
   </video>
   <div id="buttonWrapper">
-    <a href="pages/home.html"> 
+    <a href="pages/home.php"> 
       <img src="media/introButton.png">
     </a>
   </div>
