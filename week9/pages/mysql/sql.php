@@ -18,7 +18,8 @@ name VARCHAR(30) NOT NULL,
 email VARCHAR(50) NOT NULL,
 website VARCHAR(30) NOT NULL,
 comment VARCHAR(150) NOT NULL,
-gender VARCHAR(30) NOT NULL
+gender VARCHAR(30) NOT NULL,
+regTime TIMESTAMP NOT NULL DEFAULT
 )";
 
 if ($conn->query($sql) === TRUE) {
