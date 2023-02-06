@@ -110,36 +110,36 @@ echo $gender;
   echo $gender;
 ?>
 
-
 <?php
+			// database connection code
+			$con = mysqli_connect('localhost', 'root', '','outlanderDB');
+			if($con === false){
+				die("ERROR: Could not connect. "
+					. mysqli_connect_error());
+			}
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") 
-{
+			// get the post records
+			$name = $_REQUEST['name'];
+			$email = $_REQUEST['email'];
+			$website = $_REQUEST['website'];
+			$comment = $_REQUEST['comment'];
+			$gender = $_REQUEST['gender'];
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "testdb";
+			// database insert SQL code
+			$sql = "INSERT INTO Outlanders VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
 
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	die("Connection failed: " . $conn->connect_error);
-	}
+			if(mysqli_query($con, $sql)){
 
-	$sql = "INSERT INTO MyOutlanders (firstname, lastname, email)
-	VALUES ('$name', ' ', '$email')";
+			} else{
+				mysqli_error($con);
+			}
 
-	if ($conn->query($sql) === TRUE) {
-	echo "New record created successfully";
-	} else {
-	echo "Error: " . $sql . "<br>" . $conn->error;
-	}
+			// Close connection
+			mysqli_close($con);
+			?>
+  <button>
+    <a href="guests.php"> Check out who else visited! </a>
+  <button>
 
-	$conn->close();
-}
-?>
-  
 </body>
 </html>
