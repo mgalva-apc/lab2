@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Looks like something went wrong with the connection! : " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email, website, comment, gender, reg_date FROM Outlanders";
+$sql = "SELECT * FROM Outlanders";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
