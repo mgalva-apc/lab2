@@ -4,24 +4,24 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "webprogmi212";
+$password = "webprogmi212";
 $dbname = "outlanderDB";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Looks like something went wrong with the connection! : " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email, website, comment, gender FROM Outlanders";
+$sql = "SELECT id, name, email, website, comment, gender, reg_date FROM Outlanders";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - Name: ". $row["name"]. "- Email: ". $row["email"]. "- Website: ". $row["website"]. "- Comment: ". $row["comment"]. "- Gender: ". $row["gender"];
+        echo "<hr> id: ". $row["id"]. "<hr> - Name: ". $row["name"]. "<hr>- Email: ". $row["email"]. "<hr>- Website: ". $row["website"]. "<hr>- Comment: ". $row["comment"]. "<hr>- Gender: ". $row["gender"] . "<hr>- registration date: ". $row["regDate"];
     }
 } else {
     echo "0 results";
