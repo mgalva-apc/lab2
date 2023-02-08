@@ -126,7 +126,7 @@ echo $gender;
 			$gender = $_REQUEST['gender'];
 
 			// database insert SQL code
-			$sql = "INSERT INTO Outlanders (name, email, website, comment, gender) VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
+			$sql = "INSERT INTO Outlanders (name, email, website, comment, gender) VALUES (0, $name, $email, $website, $comment, $gender)";
 
 			if(mysqli_query($con, $sql)){
 
