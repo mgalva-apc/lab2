@@ -112,7 +112,7 @@ echo $gender;
 
 <?php
 			// database connection code
-			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','outlanderDB');
+			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
 			if($con === false){
 				die("ERROR: Looks like we can't connect you right now. "
 					. mysqli_connect_error());

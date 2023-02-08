@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "webprogmi212";
 $password = "webprogmi212";
-$dbname = "outlanderDB";
+$dbname = "webprogmi212";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

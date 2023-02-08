@@ -3,7 +3,7 @@
 	<body>
 	<?php
 	// database connection code
-	$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','outlanderDB');
+	$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
 	if($con === false){
 		die("ERROR: Could not connect. "
 			. mysqli_connect_error());
